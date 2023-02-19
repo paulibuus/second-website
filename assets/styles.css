@@ -22,3 +22,7 @@
     color: black;
     font-style: italic;
 }
+.footer-body{
+    border : solid;
+    border-color: red;
+}
