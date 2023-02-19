@@ -10,15 +10,15 @@
 }
 .header-body {
     background-color: lightsteelblue;
-    color: indigo;
+    color: white;
     margin: 10px 50 px 10px;
 }
-.div-header-left {
-    left: 0%;
+.h1-main-article {
+    color: crimson;
+    font-size: 30px;
+    font-style: normal;
 }
-.div-header-center {
-    left: 50%;
-}
-.div-header-right{
-    right: 0%;
+.p-main-article {
+    color: black;
+    font-style: italic;
 }
