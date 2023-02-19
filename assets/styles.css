@@ -8,3 +8,16 @@
     color: beige;
     display: inline-block;
 }
+.header-body {
+    background-color: lightsteelblue;
+    color: indigo;
+}
+.div-header-left {
+    left: 0%;
+}
+.div-header-center {
+    left: 50%;
+}
+.div-header-right{
+    right: 0%;
+}
