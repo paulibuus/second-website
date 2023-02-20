@@ -12,6 +12,9 @@
     background-color: lightsteelblue;
     color: white;
     margin: 10px 50 px 10px;
+    border: solid;
+    border-color: blue;
+    border-width: thin;
 }
 .h1-main-article {
     color: crimson;
@@ -23,6 +26,12 @@
     font-style: italic;
 }
 .footer-body{
+    justify-self: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: darkslategray;
     border : solid;
     border-color: red;
+    border-style: dashed;
+    border-width: 0.5px;
 }
