@@ -35,3 +35,26 @@
     border-style: dashed;
     border-width: 0.5px;
 }
+.main-column {
+    column-count: 2;
+    column-gap: 100px;
+    column-rule-style: solid;
+    column-rule-color: rgb(107, 45, 45);
+    column-rule-width: 2px;
+    column-fill: auto;
+}
+.h1-main {
+    column-span: all;
+    text-align: center;
+    background-color: seagreen;
+}
+.h1-footer {
+    inline-size: min-content;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    color:purple;
+}
