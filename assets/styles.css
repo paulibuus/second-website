@@ -58,3 +58,20 @@ a:hover {
 a:visited {
     color:purple;
 }
+.header-body-article {
+    background-color: beige;
+    border: solid;
+    border-color: black;
+    border-width: thin;
+}
+.nav-header {
+    border: solid;
+    border-color: burlywood;
+    border-width: thin;
+}
+.article-main {
+    background-color: darkseagreen;
+    border: solid;
+    border-color: rgb(151, 64, 64);
+    border-width: thin;
+}
