@@ -28,16 +28,7 @@
     color: black;
     text-align: justify;
 }
-.footer-body{
-    justify-self: center;
-    margin-left: 30%;
-    margin-right: 30%;
-    background-color: darkslategray;
-    border : solid;
-    border-color: red;
-    border-style: dashed;
-    border-width: 0.5px;
-}
+
 .main-column {
     column-count: 2;
     column-gap: 100px;
@@ -56,13 +47,15 @@
 }
 .h1-footer {
     inline-size: min-content;
+    width: fit-content;
+}
+footer p {
+    width: fit-content;
+    color: white;
+    font-weight: bold;
 }
 a:hover {
-    text-decoration: none;
     color: white;
-}
-a:visited {
-    color:purple;
 }
 .header-body-article {
     background-color: beige;
@@ -100,4 +93,34 @@ a:visited {
     border: solid;
     border-color: rgb(151, 64, 64);
     border-width: thin;
+}
+
+/* sélectionne les éléments li dans la class ul-footer */
+.ul-footer li {
+    display: inline-block; /* enlève le retour à la ligne entre les diff éléments */
+    background-color: dimgray; /* couleur du background */
+    color: white; /* couleur du texte */
+    border: 1.8px; /* définit la taille de la bordure */
+    border-style: solid; /* définit le style de la bordure */
+    border-color: darkred; /* définit la couleur de la bordure */
+    border-radius: 5px; /* permet d'arrondir les angles de la bordure */
+    padding: 2px 4px; /* padding c'est la place entre le texte et la bordure */
+    text-align: center;
+}
+
+.ul-footer li:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+}
+
+/* va définir les éléments de ul-footer */
+.ul-footer{
+    text-align: center; /* les éléments à l'intérieur vont être centrés */
+    border: 1px solid lightblue; /* définit une bordure de 1px solide et de couleur lightblue */
+    padding: 10; /*20px de padding de tous les côtés */
+    background-color: black;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
 }
