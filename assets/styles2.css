@@ -1,0 +1,41 @@
+/* Réglages s'appliquand à toute la page il me semble! */
+html {
+    box-sizing: border-box; /* Réglage de base pour le calcul des box*/
+    scroll-behavior: smooth; /* scroll plus smooth je crois */
+    font-family: 'The Antiqua B', Georgia, serif; /* liste de police par priorité, si 1 pas dispo passe à la 2*/
+}
+
+/* Site header */
+
+.Site-header {
+    z-index: 5; /*Lorsque des éléments se chevauchent, le z-order détermine l'ordre des différentes couches */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Site Title */
+.Site-title {
+
+}
+
+/* Les liens dans le site title */
+.Site-title a {
+
+}
+
+/* Les liens quand on passe dessus dans site title */
+.Site-title a:hover {
+
+}
+
+.Nav-header {
+
+}
+
+.Ul-header {
+
+}
+
+.Li-header {
+
+}
